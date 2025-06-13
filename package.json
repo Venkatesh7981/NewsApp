@@ -2,7 +2,7 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Venkatesh7981/NewsApp",
+  "homepage": "https://venkateshnewsapp.netlify.app",
   "dependencies": {
     "bootstrap": "^5.3.6",
     "cra-template": "1.2.0",
@@ -21,12 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
