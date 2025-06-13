@@ -3,6 +3,8 @@ import NewsItem from './Newsitem'
  import Spinner from './Spinner';
 import PropTypes from 'prop-types'
 import InfiniteScroll from "react-infinite-scroll-component";
+const apiKey = process.env.REACT_APP_NEWS_API_KEY;
+
 
 
 export class News extends Component {
